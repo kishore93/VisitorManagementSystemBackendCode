@@ -1,0 +1,14 @@
+---
+instances: 1
+memory: 750MB
+applications:
+  - name: visitor-management-message
+    path: target/visitor-management-message-1.0.0-SNAPSHOT.jar
+    #services:
+      
+      
+    routes:
+      - route: visitor-management-message.cfapps.io
+      
+    env:
+      SPRING_PROFILES_ACTIVE: cloud,dev

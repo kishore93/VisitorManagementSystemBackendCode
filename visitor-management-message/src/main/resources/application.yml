@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    bootstrap-servers: 35.200.152.56:9092
+server:
+  port: 8081
+    

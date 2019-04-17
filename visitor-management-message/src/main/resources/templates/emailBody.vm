@@ -1,0 +1,77 @@
+<table style="font-family:  Arial; font-size: 13px; margin: 15px auto; border: solid 1px #081f3b; color: #081f3b; width: 600px;" cellspacing="0">
+<tr>
+<td style="padding: 5px;background-color: #e8ecf1;border: solid 4px #081f3b;" colspan="2">
+<img style="height: 40px;width: 150px;" alt="" src="https://www.infosys.com/SiteCollectionImages/media-resources/infosys-nyn-tagline-jpg.jpg"/></td>
+</tr>
+<tr>
+<td bgcolor="#f5f5f5" style="padding: 5px;background-color: #e8ecf1;border: solid 4px #081f3b;" colspan="2">
+<table style="font-family:  Arial; font-size: 13px; width:100%;">
+
+<tr>
+<td>
+<p>Dear  Visitors</p>
+</td>
+</tr>
+<tr>
+	<td style="padding:7px;"></td>
+</tr>
+<tr>
+<td bgcolor="#d2edfa" style="padding: 7px;">
+
+<p style="font-size: 13px;padding:5px 0px;margin-bottom: 0px;">Welcome to Infosys. </p>
+<table style="font-family:  Arial; font-size: 13px; margin: 15px auto; border: solid 1px #081f3b; color: #081f3b; width: 600px;" cellspacing="0">
+<thead style="text-align: left;padding: 5px;">
+<tr> 
+<th>Sr.No</th>
+<th>Full Name</th>
+<th>DC Location</th>
+<th>Qr-Url</th>
+</tr>
+</thead>
+
+<tbody style="text-align: left;padding: 5px;">
+ #foreach( $visitor in $visitorList )
+<tr>
+<td>$velocityCount</td>
+<td>$visitor.visitorName</td>
+<td>$visitor.locationName</td>
+<td>
+
+
+<a href="http://10.64.109.201:8080/visitor-management/image/bytes/$qrCodeUrl">
+<img style="height: 40px;width: 40px;" alt="Qr" src="http://10.64.109.201:8080/visitor-management/image/bytes/$qrCodeUrl"/></a>
+</td>
+</tr>
+<tr/>
+ #end
+<tbody/>
+
+</table>
+<p style="font-size: 13px;padding:5px 0px;margin-bottom: 0px;">
+Visitor-Management is a great way to get invite.</p>
+ 
+</p>
+
+
+</td>
+</tr>
+<tr>
+	<td style="padding:7px;"></td>
+</tr>
+
+<tr>
+<td>
+<p>Please do not respond to this email, it is an automatically generated response.
+ If you have any questions, please contact the <a href="mailto:neerajsanodiya4@gmail.com" title="neerajsanodiya4@gmail.com" target="_blank">
+ Makeathon Team</a>.</p>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px;">From, <br />Makeathon Team</td>
+</tr>
+
+</table>
+</td>
+</tr>
+
+</table>

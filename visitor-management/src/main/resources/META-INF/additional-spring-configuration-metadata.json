@@ -1,0 +1,62 @@
+{"properties": [
+  {
+    "name": "smtp.mail.protocol",
+    "type": "java.lang.String",
+    "description": "A description for 'smtp.mail.protocol'"
+  },
+  {
+    "name": "http.multipart",
+    "type": "java.lang.String",
+    "description": "A description for 'http.multipart'"
+  },
+  {
+    "name": "http.max-file-size",
+    "type": "java.lang.String",
+    "description": "A description for 'http.max-file-size'"
+  },
+  {
+    "name": "http.max-request-size",
+    "type": "java.lang.String",
+    "description": "A description for 'http.max-request-size'"
+  },
+  {
+    "name": "smtp.mail.port",
+    "type": "java.lang.String",
+    "description": "A description for 'smtp.mail.port'"
+  },
+  {
+    "name": "smtp.mail.smtp-auth",
+    "type": "java.lang.String",
+    "description": "A description for 'smtp.mail.smtp-auth'"
+  },
+  {
+    "name": "smtp.mail.smtp-starttls-enable",
+    "type": "java.lang.String",
+    "description": "A description for 'smtp.mail.smtp-starttls-enable'"
+  },
+  {
+    "name": "smtp.mail.username",
+    "type": "java.lang.String",
+    "description": "A description for 'smtp.mail.username'"
+  },
+  {
+    "name": "smtp.mail.password",
+    "type": "java.lang.String",
+    "description": "A description for 'smtp.mail.password'"
+  },
+  {
+    "name": "smtp.mail.cc-email",
+    "type": "java.lang.String",
+    "description": "A description for 'smtp.mail.cc-email'"
+  },
+  {
+    "name": "smtp.mail.cc-email",
+    "type": "java.lang.String",
+    "description": "A description for 'smtp.mail.cc-email'"
+  },
+  {
+    "name": "smtp.mail.host",
+    "type": "java.lang.String",
+    "description": "A description for 'smtp.mail.host'"
+  }
+]}

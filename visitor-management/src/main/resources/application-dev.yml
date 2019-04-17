@@ -1,0 +1,26 @@
+spring:
+  kafka:
+    bootstrap-servers: 35.200.152.56:9092
+  h2:
+    console:
+      enabled: true
+  
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: 
+  jpa:
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: INFO
+
+    
